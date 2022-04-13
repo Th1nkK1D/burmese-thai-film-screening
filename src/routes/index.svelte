@@ -12,5 +12,4 @@
 </svelte:head>
 
 <Hero />
-
 <Program />

@@ -29,6 +29,12 @@
 		</div>
 
 		<div class="grid grid-cols-2 grid-rows-4 gap-8 md:(grid-cols-4 grid-rows-2 gap-20)">
+			{#each images as alt, index}
+				<img src="/images/hero/{index + 1}.png" {alt} />
+			{/each}
+
+			<img src="https://via.placeholder.com/250x250?text=waiting" class="rounded-full" alt="" />
+
 			<button class="action-button bg-orange text-white hover:bg-yellow">
 				<span>Get the ticket</span>
 				<svg
@@ -45,6 +51,7 @@
 					/></svg
 				>
 			</button>
+
 			<button
 				class="action-button border-3 md:border-4 border-orange text-orange hover:(border-yellow text-yellow)"
 			>
@@ -60,10 +67,6 @@
 					/></svg
 				>
 			</button>
-
-			{#each images as alt, index}
-				<img src="/images/hero/{index + 1}.png" {alt} />
-			{/each}
 		</div>
 	</div>
 
@@ -75,7 +78,7 @@
 
 <style>
 	.action-button {
-		@apply flex flex-col space-y-4 justify-center items-center rounded-full;
+		@apply flex flex-col space-y-4 justify-center items-center rounded-full p-4;
 	}
 
 	.action-button svg {
