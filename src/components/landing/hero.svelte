@@ -3,7 +3,9 @@
 </script>
 
 <div class="relative">
-	<div class="container max-w-screen-xl min-h-screen space-y-8 -md:text-center md:space-y-24">
+	<div
+		class="container max-w-screen-xl min-h-screen space-y-8 pt-12 -md:text-center md:(space-y-24 pt-24)"
+	>
 		<div class="flex flex-row">
 			<h1 class="typo-title">Burmese-Thai Film Screening</h1>
 			<div class="typo-subtitle text-orange text-right space-y-4 -md:hidden">
