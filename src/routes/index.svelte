@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from '../components/landing/hero.svelte';
+	import Program from '../components/landing/program.svelte';
 </script>
 
 <svelte:head>
@@ -11,3 +12,5 @@
 </svelte:head>
 
 <Hero />
+
+<Program />
