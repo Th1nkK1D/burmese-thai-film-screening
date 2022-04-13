@@ -12,19 +12,18 @@
 				<p class="font-bold">
 					20.05.21<br />27.05.21
 				</p>
-				<p>
-					Tallinn<br />University
-				</p>
+				<p>SuperNova Cinema, TLU</p>
 			</div>
 		</div>
 
 		<div class="space-y-4">
 			<p class="typo-subtitle max-w-3xl">
-				A films screening of Thai and Burmese political films under military government
+				Thai and Burmese political films under military government
 			</p>
 			<p class="typo-subtitle text-orange md:hidden">
 				<span class="font-bold">20.05.22 and 27.05.22</span>
-				@ Tallinn University
+				<br />
+				@ SuperNova Cinema, Tallinn University
 			</p>
 		</div>
 
