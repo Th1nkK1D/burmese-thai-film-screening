@@ -8,6 +8,8 @@
 		{ name: 'ELU', image: '/images/partners/life.png', link: 'https://elu.tlu.ee/en' },
 		{ name: 'BFM School', image: '/images/partners/bfm.png', link: 'https://www.tlu.ee/en/bfm' }
 	];
+
+	let programSection: HTMLDivElement;
 </script>
 
 <svelte:head>
@@ -18,9 +20,9 @@
 	/>
 </svelte:head>
 
-<Hero />
+<Hero on:scrolltoprogram={() => programSection.scrollIntoView({ behavior: 'smooth' })} />
 
-<div class="container bg-black space-y-24 md:space-y-48 px-0">
+<div bind:this={programSection} class="container bg-black space-y-24 md:space-y-48 px-0">
 	{#each programs as program}
 		<Program {...program} />
 	{/each}

@@ -1,5 +1,9 @@
 <script lang="ts">
+	import { createEventDispatcher } from 'svelte';
+
 	const images = ['Mr. Zero', 'Letter to san Zaw Htway', 'Ferris Wheel', 'Red Aninsri'];
+
+	const dispatch = createEventDispatcher();
 </script>
 
 <div class="relative">
@@ -53,6 +57,7 @@
 
 			<button
 				class="action-button border-3 md:border-4 border-orange text-orange hover:(border-yellow text-yellow)"
+				on:click={() => dispatch('scrolltoprogram')}
 			>
 				<span>See the programs</span>
 				<svg viewBox="0 0 512 512"
