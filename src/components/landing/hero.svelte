@@ -53,8 +53,6 @@
 				/>
 			{/each}
 
-			<img src="https://via.placeholder.com/250x250?text=waiting" class="rounded-full" alt="" />
-
 			<button class="action-button bg-orange text-white hover:bg-yellow">
 				<span>Get FREE ticket</span>
 				<svg
