@@ -1,4 +1,5 @@
-<slot />
+<script lang="ts">
+  import "virtual:windi.css"
+</script>
 
-<style windi:preflights:global windi:safelist:global>
-</style>
+<slot />
