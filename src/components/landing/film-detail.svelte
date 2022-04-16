@@ -86,6 +86,7 @@
 						<div>
 							<a
 								href={trailerLink}
+								target="_blank"
 								class="flex flex-row items-center space-x-1 text-orange underline hover:text-yellow"
 								><span>Watch trailer</span>
 								<svg
