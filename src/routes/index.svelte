@@ -52,7 +52,8 @@
 		<div class="flex justify-center items-center">
 			<a
 				class="flex flex-row items-center space-x-2 p-2 text-orange hover:text-yellow bg-wheat"
-				href="/#"
+				href="https://www.facebook.com/Burmese-Thai-Film-Screening-107534211931969"
+				target="_blank"
 			>
 				<span class="typo-b2">Follow us on</span>
 				<svg class="w-8 h-8" viewBox="0 0 512 512"
@@ -66,7 +67,7 @@
 		</div>
 		<div class="flex flex-row justify-center items-center space-x-6 md:space-x-12">
 			{#each partners as { name, link, image }}
-				<a href={link}>
+				<a href={link} target="_blank">
 					<img src={image} alt={name} class="h-14 md:h-24" />
 				</a>
 			{/each}
