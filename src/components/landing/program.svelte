@@ -36,7 +36,7 @@
 
 <div>
 	<div class="bg-black text-white">
-		<div class="container max-w-screen-lg space-y-24 pb-12 pt-0">
+		<div class="container max-w-screen-lg space-y-16 md:space-y-24 pb-12 pt-0">
 			<div class="space-y-6">
 				<h2 class="typo-h1">{name}</h2>
 
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 
-			<div class="flex flex-col md:flex-row justify-center gap-4">
+			<div class="flex flex-col md:flex-row justify-center gap-2 md:gap-4">
 				<a href={ticketLink} class="action-button bg-orange text-white hover:bg-yellow"
 					><svg
 						viewBox="0 0 512 512"

@@ -57,7 +57,7 @@
 				</div>
 				<div class="flex-1 typo-b1 leading-normal space-y-4">
 					{#each summary as paragraph}
-						<p>
+						<p class="indent">
 							{paragraph}
 						</p>
 					{/each}
@@ -65,7 +65,7 @@
 					{#if awards?.length > 0}
 						<div>
 							<p class="font-bold">Awards:</p>
-							<ul class="list-circle list-inside">
+							<ul class="list-circle ml-6">
 								{#each awards as award}
 									<li>{award}</li>
 								{/each}

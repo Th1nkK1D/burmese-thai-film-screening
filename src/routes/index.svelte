@@ -34,14 +34,14 @@
 		<div class="typo-b1 leading-normal space-y-6 bg-wheat p-2 rounded">
 			<h2 class="typo-h2">About the Project</h2>
 
-			<p>
+			<p class="indent">
 				Against the tendency of human rights, Southeast Asian military states, including Thailand
 				and Myanmar, attempt to control the communication of the media in order to maintain their
 				power. Under difficult situations, censorships, and restrictions enforced by the military
 				states, the filmmakers seek a way to raise their voices, addressing political issues through
 				the moving images.
 			</p>
-			<p>
+			<p class="indent">
 				Through the film screening and conversations, Untitled event would like to address these
 				issues and elaborate the understanding of historical, political, and cultural context of
 				Thailand and Myanmar.
