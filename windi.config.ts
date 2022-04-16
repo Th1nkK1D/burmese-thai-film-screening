@@ -17,11 +17,11 @@ export default defineConfig({
 	shortcuts: {
 		'typo-title': 'font-staatliches md:text-128px text-64px',
 		'typo-subtitle': 'font-barlow md:text-32px text-16px',
-		'typo-h1': 'font-staatliches md:text-64px text-48px',
-		'typo-h2': 'font-staatliches md:text-48px text-30px',
+		'typo-h1': 'font-staatliches md:text-84px text-52px',
+		'typo-h2': 'font-staatliches md:text-56px text-36px',
 		'typo-h3': 'font-barlow md:text-36px text-24px',
-		'typo-b1': 'font-barlow md:text-16px text-14px',
-		'typo-b2': 'font-barlow md:text-14px text-12px',
+		'typo-b1': 'font-barlow md:text-18px text-16px',
+		'typo-b2': 'font-barlow md:text-16px text-14px',
 		container: 'w-full mx-auto px-8 py-24 md:(px-16 py-48)'
 	}
 });
