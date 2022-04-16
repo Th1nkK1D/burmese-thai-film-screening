@@ -1,3 +1,16 @@
+<script lang="ts">
+	export let name: string;
+	export let poster: string;
+	export let year: number;
+	export let screenshot: string;
+	export let summary: string[];
+	export let awards: string[];
+	export let director: string;
+	export let country: string;
+	export let duration: number;
+	export let trailerLink: string;
+</script>
+
 <div class="bg-black -mb-1">
 	<div class="container max-w-screen-lg py-0">
 		<svg
@@ -14,39 +27,42 @@
 
 <div class="bg-wheat typo-b1">
 	<div class="container max-w-screen-lg py-8 space-y-6 md:(py-18 space-y-12)">
-		<h4 class="typo-h3"><span class="font-bold">Ferris Wheel</span> (2015)</h4>
+		<h4 class="typo-h3"><span class="font-bold">{name}</span> ({year})</h4>
 		<div class="flex flex-col-reverse md:(flex-row space-x-8)">
 			<div class="flex flex-col space-y-4 -md:mt-8">
-				<img src="https://via.placeholder.com/436x248?text=screenshot" alt="" />
-				<img src="https://via.placeholder.com/436x248?text=interview" alt="" />
+				<img src={screenshot} alt="{name} screenshot" />
+				<img src="https://via.placeholder.com/436x248?text=interview" alt="{name} interview" />
 			</div>
 			<div class="flex-1 typo-b1 leading-normal space-y-4">
+				{#each summary as paragraph}
+					<p>
+						{paragraph}
+					</p>
+				{/each}
+
+				{#if awards?.length > 0}
+					<div>
+						<p class="font-bold">Awards:</p>
+						<ul class="list-circle list-inside">
+							{#each awards as award}
+								<li>{award}</li>
+							{/each}
+						</ul>
+					</div>
+				{/if}
+
 				<p>
-					A stateless woman crosses the river between Thailand and Myanmar with her 5-year-old son
-					to find a job in the city. On their journey, they meet a mysterious monkey mascot who
-					takes them to an unexpected destination with a colourful ferris wheel.
+					<span class="font-bold">Director</span>: {director}
 				</p>
-				<div>
-					<p class="font-bold">Awards:</p>
-					<ul class="list-circle list-inside">
-						<li>Best Actress – Short Shorts Film Festival, Japan</li>
-						<li>Best Short & Best Actress, Thai Short Film & Video Festival</li>
-						<li>Grand Prix – Festval Signes de Nuit, Germany</li>
-						<li>Special Mention – Singapore International Film Festival</li>
-					</ul>
-				</div>
 				<p>
-					<span class="font-bold">Director</span>: Phuttiphong Aroonpheng
+					<span class="font-bold">Country</span>: {country}
 				</p>
 				<p>
-					<span class="font-bold">Country</span>: Thailand
-				</p>
-				<p>
-					<span class="font-bold">Duration</span>: 25 minutes
+					<span class="font-bold">Duration</span>: {duration} minutes
 				</p>
 				<div>
 					<a
-						href="/#"
+						href={trailerLink}
 						class="flex flex-row items-center space-x-1 text-orange underline hover:text-yellow"
 						><span>Watch trailer</span>
 						<svg

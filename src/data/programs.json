@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Program 1",
+		"date": "05/20/2021",
+		"time": "17:00-19:00",
+		"location": "SuperNova Cinema, Tallinn University",
+		"films": [
+			{
+				"name": "Letter to san Zaw Htway",
+				"poster": "https://via.placeholder.com/285x400?text=poster",
+				"year": 2021,
+				"screenshot": "https://via.placeholder.com/436x248?text=screenshot",
+				"summary": [
+					"Artist and political activist San Zaw Htway experienced the full force of military repression in Myanmar back in 1999, when he was sentenced to 36 years in prison for involvement in the re-establishment of the banned student union. Twelve years later, under a more lenient regime, he was released.",
+					"In 2021, an aggressive military regime seized power again in a coup, brutally crushing mass protests. Friends, relatives, and other former political prisoners write letters to San, in whom they find comfort, understanding, and good advice. Despite everything, he never lost his spirit during his years of imprisonment.",
+					"The remarkable and sometimes shocking images of the recent demonstrations against the regime are interspersed with home videos of San. The deftly edited footage and letter excerpts tell a tragic story of an extraordinary person and a country torn apart."
+				],
+				"awards": [],
+				"director": "Petr Lom",
+				"country": "Netherlands",
+				"duration": 25,
+				"trailerLink": ""
+			},
+			{
+				"name": "Ferris Wheel",
+				"poster": "https://via.placeholder.com/285x400?text=poster",
+				"year": 2015,
+				"screenshot": "https://via.placeholder.com/436x248?text=screenshot",
+				"summary": [
+					"A stateless woman crosses the river between Thailand and Myanmar with her 5-year-old son to find a job in the city. On their journey, they meet a mysterious monkey mascot who takes them to an unexpected destination with a colourful ferris wheel."
+				],
+				"awards": [
+					"Best Actress - Short Shorts Film Festival, Japan",
+					"Best Short & Best Actress, Thai Short Film & Video Festival",
+					"Grand Prix - Festval Signes de Nuit, Germany",
+					"Special Mention - Singapore International Film Festival"
+				],
+				"director": "Phuttiphong Aroonpheng",
+				"country": "Thailand",
+				"duration": 25,
+				"trailerLink": ""
+			}
+		],
+		"panellists": [
+			{
+				"name": "Karin Dean",
+				"background": "South East Asian Study, Tallinn University",
+				"picture": "https://via.placeholder.com/150x150?text=panelist"
+			}
+		],
+		"facebookEvent": ""
+	}
+]
