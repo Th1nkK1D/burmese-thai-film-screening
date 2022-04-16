@@ -51,9 +51,9 @@
 				</button>
 			</div>
 			<div class="flex flex-col-reverse md:(flex-row space-x-8)">
-				<div class="flex flex-col space-y-4 -md:mt-8">
-					<img src={screenshot} alt="{name} screenshot" />
-					<img src="https://via.placeholder.com/436x248?text=interview" alt="{name} interview" />
+				<div class="flex-1 flex flex-col space-y-4 -md:mt-8">
+					<img src={screenshot} alt={name} />
+					<!-- <img src="https://via.placeholder.com/436x248?text=interview" alt="{name} interview" /> -->
 				</div>
 				<div class="flex-1 typo-b1 leading-normal space-y-4">
 					{#each summary as paragraph}
@@ -82,25 +82,27 @@
 					<p>
 						<span class="font-bold">Duration</span>: {duration} minutes
 					</p>
-					<div>
-						<a
-							href={trailerLink}
-							class="flex flex-row items-center space-x-1 text-orange underline hover:text-yellow"
-							><span>Watch trailer</span>
-							<svg
-								class="w-5 h-5"
-								viewBox="0 0 512 512"
-								fill="none"
-								stroke="currentColor"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="32"
-								><path
-									d="M176 176v-40a40 40 0 0 1 40-40h208a40 40 0 0 1 40 40v240a40 40 0 0 1-40 40H216a40 40 0 0 1-40-40v-40"
-								/><path d="m272 336l80-80l-80-80M48 256h288" /></svg
-							></a
-						>
-					</div>
+					{#if trailerLink}
+						<div>
+							<a
+								href={trailerLink}
+								class="flex flex-row items-center space-x-1 text-orange underline hover:text-yellow"
+								><span>Watch trailer</span>
+								<svg
+									class="w-5 h-5"
+									viewBox="0 0 512 512"
+									fill="none"
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="32"
+									><path
+										d="M176 176v-40a40 40 0 0 1 40-40h208a40 40 0 0 1 40 40v240a40 40 0 0 1-40 40H216a40 40 0 0 1-40-40v-40"
+									/><path d="m272 336l80-80l-80-80M48 256h288" /></svg
+								></a
+							>
+						</div>
+					{/if}
 				</div>
 			</div>
 		</div>
