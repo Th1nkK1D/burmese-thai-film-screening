@@ -14,6 +14,8 @@
 
 <Hero />
 
-{#each programs as program}
-	<Program {...program} />
-{/each}
+<div class="container bg-black space-y-24 md:space-y-48 px-0">
+	{#each programs as program}
+		<Program {...program} />
+	{/each}
+</div>
