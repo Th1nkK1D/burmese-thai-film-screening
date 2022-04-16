@@ -9,7 +9,7 @@
 				"name": "Letter to san Zaw Htway",
 				"poster": "https://via.placeholder.com/285x400?text=poster",
 				"year": 2021,
-				"screenshot": "https://via.placeholder.com/436x248?text=screenshot",
+				"screenshot": "/images/movies/zaw-htway.webp",
 				"summary": [
 					"Artist and political activist San Zaw Htway experienced the full force of military repression in Myanmar back in 1999, when he was sentenced to 36 years in prison for involvement in the re-establishment of the banned student union. Twelve years later, under a more lenient regime, he was released.",
 					"In 2021, an aggressive military regime seized power again in a coup, brutally crushing mass protests. Friends, relatives, and other former political prisoners write letters to San, in whom they find comfort, understanding, and good advice. Despite everything, he never lost his spirit during his years of imprisonment.",
@@ -23,9 +23,9 @@
 			},
 			{
 				"name": "Ferris Wheel",
-				"poster": "https://via.placeholder.com/285x400?text=poster",
+				"poster": "/images/movies/ferris-wheel-0-230-0-345.jpg",
 				"year": 2015,
-				"screenshot": "https://via.placeholder.com/436x248?text=screenshot",
+				"screenshot": "/images/movies/ferris-wheel.jpg",
 				"summary": [
 					"A stateless woman crosses the river between Thailand and Myanmar with her 5-year-old son to find a job in the city. On their journey, they meet a mysterious monkey mascot who takes them to an unexpected destination with a colourful ferris wheel."
 				],
@@ -38,6 +38,51 @@
 				"director": "Phuttiphong Aroonpheng",
 				"country": "Thailand",
 				"duration": 25,
+				"trailerLink": ""
+			}
+		],
+		"panellists": [
+			{
+				"name": "Karin Dean",
+				"background": "South East Asian Study, Tallinn University",
+				"picture": "https://via.placeholder.com/150x150?text=panelist"
+			}
+		],
+		"ticketLink": "",
+		"facebookEvent": ""
+	},
+	{
+		"name": "Program 2",
+		"date": "05/27/2021",
+		"time": "17:00-19:00",
+		"location": "SuperNova Cinema, Tallinn University",
+		"films": [
+			{
+				"name": "Mr. Zero",
+				"poster": "/images/movies/mr-zero-1-764x1080.jpg",
+				"year": 2016,
+				"screenshot": "/images/movies/mrzero.webp",
+				"summary": [
+					"Bandhit Arneeya is a Thai writer and translator. He was charged under Act 112 (Thai Lèse-majesté) four times. He was released twice having been treated as a mental patient. Two charges are still pending in the courts. This story is narrated across the boundary between fact and fiction, from his work and his personal story. The director of thefilm Nutcha TANTIVITAYAPITAK was born in 1993 in Bangkok Thailand. She had his education in Film and Photography, Faculty of Journalism and Mass communication at Thammasat University."
+				],
+				"awards": ["Documentary Prize of Thai Short Film and Video Festival 2016"],
+				"director": "Nutcha Tantivitayapitak",
+				"country": "Thailand",
+				"duration": 40,
+				"trailerLink": ""
+			},
+			{
+				"name": "Red Aninsri",
+				"poster": "/images/movies/red-aninsri.avif",
+				"year": 2020,
+				"screenshot": "/images/movies/red-aninsri.jpg",
+				"summary": [
+					"This political satire film follows the convention of Thai cinema during the Cold War, where every actor is dubbed by the voice that suits their roles. The hero sounds heroic and the villain sounds villainous. Ang, a transgender sex worker with a pretty, feminine voice is assigned a special mission as an undercover spy. She disguises herself as a cis-masculine man to enter into a romantic relationship with Jit, a belligerent yet idealistic student activist with an evil voice. Ang must extract important information from Jit. However, the mission goes awry as she slowly falls for him. Apolitical at first, Ang is slowly awakened by Jit to see the other world where people speak in another way."
+				],
+				"awards": [],
+				"director": "Ratchapoom Boonbunchachoke",
+				"country": "Thailand",
+				"duration": 30,
 				"trailerLink": ""
 			}
 		],
