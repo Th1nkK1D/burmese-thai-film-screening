@@ -12,14 +12,6 @@
 	let programSection: HTMLDivElement;
 </script>
 
-<svelte:head>
-	<title>Burmese-Thai Film Screening</title>
-	<meta
-		name="description"
-		content="A films screening of Thai and Burmese political films under military government"
-	/>
-</svelte:head>
-
 <Hero on:scrolltoprogram={() => programSection.scrollIntoView({ behavior: 'smooth' })} />
 
 <div bind:this={programSection} class="container bg-black space-y-24 md:space-y-48 px-0">
