@@ -2,6 +2,12 @@
 	import Hero from '../components/landing/hero.svelte';
 	import Program from '../components/landing/program.svelte';
 	import programs from '../data/programs.json';
+
+	const partners = [
+		{ name: 'Tallinn University', image: '/images/partners/tlu.png', link: 'https://www.tlu.ee/' },
+		{ name: 'ELU', image: '/images/partners/life.png', link: 'https://elu.tlu.ee/en' },
+		{ name: 'BFM School', image: '/images/partners/bfm.png', link: 'https://www.tlu.ee/en/bfm' }
+	];
 </script>
 
 <svelte:head>
@@ -20,10 +26,14 @@
 	{/each}
 </div>
 
-<div class="bg-wheat">
-	<div class="container max-w-screen-md space-y-12">
-		<h2 class="typo-h2">About the Project</h2>
-		<div class="typo-b1 leading-normal space-y-6">
+<div
+	class="bg-wheat bg-cover bg-bottom bg-no-repeat pb-60 md:pb-96"
+	style="background-image: url(/images/footer-bg.png);"
+>
+	<div class="container max-w-screen-md space-y-24">
+		<div class="typo-b1 leading-normal space-y-6 bg-wheat p-2 rounded">
+			<h2 class="typo-h2">About the Project</h2>
+
 			<p>
 				Against the tendency of human rights, Southeast Asian military states, including Thailand
 				and Myanmar, attempt to control the communication of the media in order to maintain their
@@ -38,7 +48,10 @@
 			</p>
 		</div>
 		<div class="flex justify-center items-center">
-			<a class="flex flex-row items-center space-x-2 p-2 text-orange hover:text-yellow" href="/#">
+			<a
+				class="flex flex-row items-center space-x-2 p-2 text-orange hover:text-yellow bg-wheat"
+				href="/#"
+			>
 				<span class="typo-b2">Follow us on</span>
 				<svg class="w-8 h-8" viewBox="0 0 512 512"
 					><path
@@ -49,5 +62,16 @@
 				></a
 			>
 		</div>
+		<div class="flex flex-row justify-center items-center space-x-6 md:space-x-12">
+			{#each partners as { name, link, image }}
+				<a href={link}>
+					<img src={image} alt={name} class="h-14 md:h-24" />
+				</a>
+			{/each}
+		</div>
 	</div>
 </div>
+
+<footer class="text-center typo-b2 p-12 bg-black text-white">
+	&copy; Burmese-Thai Films Screening {new Date().getFullYear()} - All rights reserved
+</footer>
