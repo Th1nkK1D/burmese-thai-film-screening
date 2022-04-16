@@ -4,6 +4,7 @@
 		"date": "05/20/2021",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema, Tallinn University",
+		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
 		"films": [
 			{
 				"name": "Letter to san Zaw Htway",
@@ -56,6 +57,7 @@
 		"date": "05/27/2021",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema, Tallinn University",
+		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
 		"films": [
 			{
 				"name": "Mr. Zero",

@@ -25,6 +25,7 @@
 	export let date: string;
 	export let time: string;
 	export let location: string;
+	export let locationLink: string;
 	export let films: Film[];
 	export let panellists: Panellist[];
 	export let facebookEvent: string;
@@ -39,12 +40,16 @@
 			<div class="space-y-6">
 				<h2 class="typo-h1">{name}</h2>
 
-				<div class="text-orange typo-subtitle space-y-3">
-					<p class="font-bold">
-						{new Date(date).toLocaleDateString('EN-en', { dateStyle: 'full' })} <br />
+				<div class="typo-subtitle space-y-3">
+					<p>
+						<span class="font-bold">
+							{new Date(date).toLocaleDateString('EN-en', { dateStyle: 'full' })}
+						</span><br />
 						{time}
 					</p>
-					<p>@ {location}</p>
+					<p class="text-orange">
+						@ <a href={locationLink} class="hover:underline" target="_blank">{location}</a>
+					</p>
 				</div>
 			</div>
 			<div class="space-y-6">
