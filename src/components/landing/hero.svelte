@@ -1,7 +1,20 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onDestroy, onMount } from 'svelte';
 
 	const images = ['Mr. Zero', 'Letter to san Zaw Htway', 'Ferris Wheel', 'Red Aninsri'];
+	const FOCUS_DURATION = 2000;
+
+	let focusImageIndex = 0;
+	let focusInterval: number;
+
+	onMount(() => {
+		focusInterval = setInterval(() => {
+			focusImageIndex =
+				(focusImageIndex + 1 + Math.floor(Math.random() * (images.length - 1))) % images.length;
+		}, FOCUS_DURATION);
+	});
+
+	onDestroy(() => clearInterval(focusInterval));
 
 	const dispatch = createEventDispatcher();
 </script>
@@ -33,7 +46,11 @@
 
 		<div class="grid grid-cols-2 grid-rows-4 gap-8 md:(grid-cols-4 grid-rows-2 gap-20)">
 			{#each images as alt, index}
-				<img src="/images/hero/{index + 1}.png" {alt} />
+				<img
+					src="/images/hero/{index + 1}.png"
+					{alt}
+					class="transition duration-1000 filter {index === focusImageIndex ? '' : 'grayscale'}"
+				/>
 			{/each}
 
 			<img src="https://via.placeholder.com/250x250?text=waiting" class="rounded-full" alt="" />
@@ -75,8 +92,12 @@
 	</div>
 
 	<div class="bg-wheat absolute inset-0 -z-1 overflow-hidden">
-		<div class="bg-ring w-70vw h-70vw -left-20vw -top-10vh md:(w-50vw h-50vw -left-10vw)" />
-		<div class="bg-ring w-120vw h-120vw -right-50vw top-40vh md:(w-70vw h-70vw -right-10vw)" />
+		<div
+			class="bg-ring w-70vw h-70vw -left-20vw -top-10vh md:(w-50vw h-50vw -left-10vw) animate-pulse"
+		/>
+		<div
+			class="bg-ring w-120vw h-120vw -right-50vw top-40vh md:(w-70vw h-70vw -right-10vw) animate-pulse"
+		/>
 	</div>
 </div>
 
