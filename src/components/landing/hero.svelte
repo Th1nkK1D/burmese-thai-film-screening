@@ -35,7 +35,7 @@
 			<img src="https://via.placeholder.com/250x250?text=waiting" class="rounded-full" alt="" />
 
 			<button class="action-button bg-orange text-white hover:bg-yellow">
-				<span>Get the ticket</span>
+				<span>Get FREE ticket</span>
 				<svg
 					viewBox="0 0 512 512"
 					fill="none"
