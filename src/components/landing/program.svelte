@@ -2,7 +2,6 @@
 	import FilmCover from './film-cover.svelte';
 	import FilmDetail from './film-detail.svelte';
 	import PanelistCard from './panelist-card.svelte';
-
 	interface Film {
 		name: string;
 		poster: string;
@@ -30,6 +29,8 @@
 	export let panellists: Panellist[];
 	export let facebookEvent: string;
 	export let ticketLink: string;
+
+	let selectedFilm: Film = null;
 </script>
 
 <div class="bg-black text-white">
@@ -49,14 +50,20 @@
 			<h3 class="typo-h2">Films</h3>
 			<div class="flex flex-row overflow-y-hidden overflow-x-auto -mx-8 px-8 md:(-mx-16 px-16)">
 				{#each films as film}
-					<FilmCover {...film} />
+					<FilmCover
+						{...film}
+						inactive={selectedFilm && selectedFilm.name !== film.name}
+						on:click={() => (selectedFilm = selectedFilm?.name === film.name ? null : film)}
+					/>
 				{/each}
 			</div>
 		</div>
 	</div>
 </div>
 
-<FilmDetail {...films[1]} />
+{#if selectedFilm}
+	<FilmDetail {...selectedFilm} on:close={() => (selectedFilm = null)} />
+{/if}
 
 <div class="bg-black text-white">
 	<div class="container max-w-screen-lg pt-12 space-y-24">
