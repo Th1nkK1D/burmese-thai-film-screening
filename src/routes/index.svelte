@@ -68,5 +68,5 @@
 </div>
 
 <footer class="text-center typo-b2 p-12 bg-black text-white">
-	&copy; Burmese-Thai Films Screening {new Date().getFullYear()} - All rights reserved
+	&copy; Burmese-Thai Film Screening {new Date().getFullYear()} - All rights reserved
 </footer>
