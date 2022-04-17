@@ -16,7 +16,7 @@ export default defineConfig({
 	},
 	shortcuts: {
 		'typo-title': 'font-staatliches md:text-128px text-64px',
-		'typo-subtitle': 'font-barlow md:text-32px text-16px',
+		'typo-subtitle': 'font-barlow md:text-32px text-20px',
 		'typo-h1': 'font-staatliches md:text-84px text-52px',
 		'typo-h2': 'font-staatliches md:text-56px text-36px',
 		'typo-h3': 'font-barlow md:text-36px text-24px',
