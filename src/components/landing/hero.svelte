@@ -27,7 +27,7 @@
 			<h1 class="typo-title">Burmese-Thai Film Screening</h1>
 			<div class="typo-subtitle text-orange text-right space-y-4 -md:hidden">
 				<p class="font-bold">
-					20.05.21<br />27.05.21
+					20.05.22<br />27.05.22
 				</p>
 				<p>SuperNova Cinema, TLU</p>
 			</div>
