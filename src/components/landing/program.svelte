@@ -15,7 +15,7 @@
 		trailerLink: string;
 	}
 
-	interface Panellist {
+	interface Panelist {
 		name: string;
 		background: string;
 		picture: string;
@@ -27,7 +27,7 @@
 	export let location: string;
 	export let locationLink: string;
 	export let films: Film[];
-	export let panellists: Panellist[];
+	export let panelists: Panelist[];
 	export let facebookEvent: string;
 	export let ticketLink: string;
 
@@ -74,10 +74,10 @@
 	<div class="bg-black text-white">
 		<div class="container max-w-screen-lg pt-12 pb-0 space-y-24">
 			<div class="space-y-6">
-				<h3 class="typo-h2">Panellists</h3>
+				<h3 class="typo-h2">Panelists</h3>
 				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-					{#each panellists as panellist}
-						<PanelistCard {...panellist} />
+					{#each panelists as panelist}
+						<PanelistCard {...panelist} />
 					{/each}
 				</div>
 			</div>
