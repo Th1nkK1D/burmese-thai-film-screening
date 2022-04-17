@@ -3,12 +3,12 @@
 		"name": "Program 1",
 		"date": "05/20/2021",
 		"time": "17:00-19:00",
-		"location": "SuperNova Cinema, Tallinn University",
+		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
 		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
 		"films": [
 			{
 				"name": "Letter to san Zaw Htway",
-				"poster": "https://via.placeholder.com/285x400?text=poster",
+				"poster": "/images/movies/zaw-htway.png",
 				"year": 2021,
 				"screenshot": "/images/movies/zaw-htway.webp",
 				"summary": [
@@ -56,7 +56,7 @@
 		"name": "Program 2",
 		"date": "05/27/2021",
 		"time": "17:00-19:00",
-		"location": "SuperNova Cinema, Tallinn University",
+		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
 		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
 		"films": [
 			{
