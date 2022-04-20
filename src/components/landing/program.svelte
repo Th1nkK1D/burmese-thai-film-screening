@@ -86,8 +86,8 @@
 			</div>
 
 			<div class="flex flex-col md:flex-row justify-center gap-2 md:gap-4">
-				<a href={ticketLink} class="action-button bg-orange text-white hover:bg-yellow"
-					><svg
+				<div class="action-button bg-orange text-white opacity-50">
+					<svg
 						viewBox="0 0 512 512"
 						fill="none"
 						stroke="currentColor"
@@ -99,10 +99,13 @@
 						/><path
 							d="m250.5 140.44l-16.51-16.51m60.53 60.53l-11.01-11m55.03 55.03l-11-11.01m60.53 60.53l-16.51-16.51"
 						/></svg
-					><span>Get FREE ticket</span></a
-				>
+					><span>FREE ticket available soon</span>
+				</div>
 				{#if facebookEvent}
-					<a href={facebookEvent} class="action-button text-orange hover:text-yellow">
+					<a
+						href={facebookEvent}
+						class="action-button text-orange hover:text-yellow hover:border-yellow"
+					>
 						<svg viewBox="0 0 512 512"
 							><path
 								d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"
@@ -119,7 +122,7 @@
 
 <style>
 	.action-button {
-		@apply rounded px-6 py-3 typo-b1 font-bold border-orange hover:border-yellow border-2 flex flex-row items-center justify-center space-x-2;
+		@apply rounded px-6 py-3 typo-b1 font-bold border-orange border-2 flex flex-row items-center justify-center space-x-2;
 	}
 
 	.action-button svg {

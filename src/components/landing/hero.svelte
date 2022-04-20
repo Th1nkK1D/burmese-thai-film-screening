@@ -59,8 +59,8 @@
 				/>
 			{/each}
 
-			<button class="action-button bg-orange text-white hover:bg-yellow">
-				<span>Get FREE ticket</span>
+			<button class="action-button bg-orange text-white opacity-50" disabled>
+				<span>FREE ticket available soon</span>
 				<svg
 					viewBox="0 0 512 512"
 					fill="none"
