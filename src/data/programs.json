@@ -4,7 +4,7 @@
 		"date": "05/20/2022",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
-		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
+		"locationLink": "http://www.kinosupernova.ee/en/asukoht/",
 		"films": [
 			{
 				"name": "Mr. Zero",
@@ -48,7 +48,7 @@
 		"date": "05/27/2022",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
-		"locationLink": "https://goo.gl/maps/EznbGhR8aVxRkfhZA",
+		"locationLink": "http://www.kinosupernova.ee/en/asukoht/",
 		"films": [
 			{
 				"name": "Letter to san Zaw Htway",
@@ -65,6 +65,20 @@
 				"country": "Netherlands",
 				"duration": 25,
 				"trailerLink": "https://lettertosanzawhtway.com/"
+			},
+			{
+				"name": "Angry Folks",
+				"poster": "/images/movies/AngryFolks_FD.jpg",
+				"year": 2019,
+				"screenshot": "/images/movies/angry_folks-online1.jpg",
+				"summary": [
+					"“Music should always reflect what is happening in society,” say ANGRY FOLKS, a two-man band from Myanmar on a mission for political and social justice. They write protest songs, support and entertain strikers, and stage plays to draw attention to the rights of factory workers. Director Aung Htet Myet discovered them on Facebook and was deeply moved by their music. His documentary film follows the actions of the two likable protagonists and demonstrates the power of music in an exhilarating way."
+				],
+				"awards": [],
+				"director": "Aung Htet Myet",
+				"country": "Myanmar",
+				"duration": 17,
+				"trailerLink": "https://www.youtube.com/watch?v=o9c8uH4mfkU"
 			},
 			{
 				"name": "Ferris Wheel",
