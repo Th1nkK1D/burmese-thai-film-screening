@@ -1,7 +1,13 @@
 <script lang="ts">
 	import { createEventDispatcher, onDestroy, onMount } from 'svelte';
 
-	const images = ['Mr. Zero', 'Letter to san Zaw Htway', 'Ferris Wheel', 'Red Aninsri'];
+	const images = [
+		'Mr. Zero',
+		'Red Aninsri',
+		'Letter to san Zaw Htway',
+		'Angry Folks',
+		'Ferris Wheel'
+	];
 	const FOCUS_DURATION = 2000;
 
 	let focusImageIndex = 0;
