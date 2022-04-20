@@ -29,16 +29,16 @@
 			<h2 class="typo-h2">About the Project</h2>
 
 			<p class="indent">
-				Against the tendency of human rights, Southeast Asian military states, including Thailand
-				and Myanmar, attempt to control the communication of the media in order to maintain their
-				power. Under difficult situations, censorships, and restrictions enforced by the military
-				states, the filmmakers seek a way to raise their voices, addressing political issues through
-				the moving images.
+				Despite the human rights, Southeast Asian military states, including Thailand and Myanmar,
+				attempt to control the communication of the media in order to maintain their power. Under
+				the censorships, and restrictions enforced by the military states, the filmmakers seek a way
+				to raise their voices, addressing political issues through the use of moving images.
 			</p>
 			<p class="indent">
-				Through the film screening and conversations, Untitled event would like to address these
-				issues and elaborate the understanding of historical, political, and cultural context of
-				Thailand and Myanmar.
+				Burmese-Thai Film Screening would like to address these issues and elaborate the
+				understanding of the historical, political, and cultural context of Burmese and Thai
+				military states. The event is a two-days program featuring five short films related to
+				political issues in Myanmar and Thailand following by discussion panels after the screening.
 			</p>
 		</div>
 		<div class="flex justify-center items-center">
