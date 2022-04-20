@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Program 1",
+		"name": "Program 1: Thailand Focus",
 		"date": "05/20/2022",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
@@ -39,18 +39,12 @@
 				"trailerLink": "https://www.youtube.com/watch?v=y8hoDLbSGgA"
 			}
 		],
-		"panelists": [
-			{
-				"name": "Karin Dean",
-				"background": "South East Asian Study, Tallinn University",
-				"picture": "https://via.placeholder.com/150x150?text=panelist"
-			}
-		],
+		"panelists": [],
 		"ticketLink": "",
 		"facebookEvent": ""
 	},
 	{
-		"name": "Program 2",
+		"name": "Program 2: Myanmar Focus",
 		"date": "05/27/2022",
 		"time": "17:00-19:00",
 		"location": "SuperNova Cinema (NOVA Building 4th floor, Tallinn University)",
@@ -92,13 +86,7 @@
 				"trailerLink": ""
 			}
 		],
-		"panelists": [
-			{
-				"name": "Karin Dean",
-				"background": "South East Asian Study, Tallinn University",
-				"picture": "https://via.placeholder.com/150x150?text=panelist"
-			}
-		],
+		"panelists": [],
 		"ticketLink": "",
 		"facebookEvent": ""
 	}
