@@ -35,7 +35,7 @@
 
 		<div class="space-y-4">
 			<p class="typo-subtitle max-w-3xl">
-				Thai and Burmese political films under military government
+				Political short films by independent filmmakers under military regimes
 			</p>
 			<p class="typo-subtitle text-orange md:hidden">
 				<span class="font-bold">20.05.22 and 27.05.22</span>
