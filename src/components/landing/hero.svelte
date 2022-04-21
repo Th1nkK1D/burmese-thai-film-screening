@@ -59,8 +59,12 @@
 				/>
 			{/each}
 
-			<button class="action-button bg-orange text-white opacity-50" disabled>
-				<span>FREE ticket available soon</span>
+			<a
+				href="https://fienta.com/burmese-thai-film-screening"
+				target="_blank"
+				class="action-button bg-orange text-white hover:bg-yellow"
+			>
+				<span>Get FREE ticket</span>
 				<svg
 					viewBox="0 0 512 512"
 					fill="none"
@@ -74,7 +78,7 @@
 						d="m250.5 140.44l-16.51-16.51m60.53 60.53l-11.01-11m55.03 55.03l-11-11.01m60.53 60.53l-16.51-16.51"
 					/></svg
 				>
-			</button>
+			</a>
 
 			<button
 				class="action-button border-3 md:border-4 border-orange text-orange hover:(border-yellow text-yellow)"
