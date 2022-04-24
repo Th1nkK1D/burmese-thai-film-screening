@@ -80,7 +80,7 @@
 						<PanelistCard {...panelist} />
 					{/each}
 					{#if !panelists?.length}
-						To be annouced
+						To be announced
 					{/if}
 				</div>
 			</div>
