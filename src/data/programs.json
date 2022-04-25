@@ -51,7 +51,7 @@
 		"locationLink": "http://www.kinosupernova.ee/en/asukoht/",
 		"films": [
 			{
-				"name": "Letter to san Zaw Htway",
+				"name": "Letter to San Zaw Htway",
 				"poster": "/images/movies/zaw-htway.png",
 				"year": 2021,
 				"screenshot": "/images/movies/zaw-htway.webp",
@@ -64,7 +64,7 @@
 				"director": "Petr Lom",
 				"country": "Netherlands",
 				"duration": 25,
-				"trailerLink": "https://lettertosanzawhtway.com/"
+				"trailerLink": ""
 			},
 			{
 				"name": "Angry Folks",

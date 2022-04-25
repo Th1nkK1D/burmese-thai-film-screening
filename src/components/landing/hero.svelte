@@ -4,7 +4,7 @@
 	const images = [
 		'Mr. Zero',
 		'Red Aninsri',
-		'Letter to san Zaw Htway',
+		'Letter to San Zaw Htway',
 		'Angry Folks',
 		'Ferris Wheel'
 	];
@@ -30,7 +30,7 @@
 		class="container max-w-screen-xl min-h-screen space-y-8 pt-12 -md:text-center md:(space-y-24 pt-24)"
 	>
 		<div class="flex flex-row">
-			<h1 class="typo-title">Burmese-Thai Film Screening</h1>
+			<h1 class="typo-title">Burmese and Thai Film Screening</h1>
 			<div class="typo-subtitle text-orange text-right space-y-4 -md:hidden">
 				<p class="font-bold">
 					20.05.22<br />27.05.22
