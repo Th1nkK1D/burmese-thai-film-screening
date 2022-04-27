@@ -4,7 +4,7 @@
 	import programs from '../data/programs.json';
 
 	const partners = [
-		{ name: 'Tallinn University', image: '/images/partners/tlu.png', link: 'https://www.tlu.ee/' },
+		{ name: 'Tallinn University', image: '/images/partners/tlu.svg', link: 'https://www.tlu.ee/' },
 		{ name: 'ELU', image: '/images/partners/life.png', link: 'https://elu.tlu.ee/en' },
 		{ name: 'BFM School', image: '/images/partners/bfm.png', link: 'https://www.tlu.ee/en/bfm' }
 	];
@@ -57,10 +57,10 @@
 				></a
 			>
 		</div>
-		<div class="flex flex-row justify-center items-center space-x-6 md:space-x-12">
+		<div class="max-w-lg mx-auto flex flex-row justify-center flex-wrap items-center">
 			{#each partners as { name, link, image }}
-				<a href={link} target="_blank">
-					<img src={image} alt={name} class="h-14 md:h-24" />
+				<a href={link} target="_blank" class="m-2 md:m-6 bg-wheat">
+					<img src={image} alt={name} class="h-16 md:h-24" />
 				</a>
 			{/each}
 		</div>
