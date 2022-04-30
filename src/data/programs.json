@@ -39,7 +39,16 @@
 				"trailerLink": "https://www.youtube.com/watch?v=y8hoDLbSGgA"
 			}
 		],
-		"panelists": [],
+		"panelists": [
+			{
+				"name": "Dr.Mukdawan Sakboon",
+				"background": ["Faculty of Social Sciences", "Chiang Mai University"]
+			},
+			{
+				"name": "Samak Kosem",
+				"background": ["Artist"]
+			}
+		],
 		"ticketLink": "https://fienta.com/burmese-thai-film-screening",
 		"facebookEvent": ""
 	},
@@ -100,7 +109,16 @@
 				"trailerLink": ""
 			}
 		],
-		"panelists": [],
+		"panelists": [
+			{
+				"name": "Karin Dean",
+				"background": ["School of Humanities", "Tallinn University"]
+			},
+			{
+				"name": "Hwang Tsai (Ah Sai)",
+				"background": ["MA Student", "Chiang Mai University"]
+			}
+		],
 		"ticketLink": "https://fienta.com/burmese-thai-film-screening-35310",
 		"facebookEvent": ""
 	}
