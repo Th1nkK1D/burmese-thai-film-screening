@@ -60,7 +60,7 @@
 			{/each}
 
 			<a
-				href="https://fienta.com/burmese-thai-film-screening"
+				href="https://fienta.com/burmese-thai-film-screening-35310"
 				target="_blank"
 				class="action-button bg-orange text-white hover:bg-yellow"
 			>
